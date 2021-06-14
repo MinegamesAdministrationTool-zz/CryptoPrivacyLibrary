@@ -1,6 +1,0 @@
-C:\Users\ezz\source\repos\CryptoPrivacy\CryptoPrivacy\bin\Debug\CryptoPrivacy.dll
-C:\Users\ezz\source\repos\CryptoPrivacy\CryptoPrivacy\bin\Debug\CryptoPrivacy.pdb
-C:\Users\ezz\source\repos\CryptoPrivacy\CryptoPrivacy\obj\Debug\CryptoPrivacy.csproj.AssemblyReference.cache
-C:\Users\ezz\source\repos\CryptoPrivacy\CryptoPrivacy\obj\Debug\CryptoPrivacy.csproj.CoreCompileInputs.cache
-C:\Users\ezz\source\repos\CryptoPrivacy\CryptoPrivacy\obj\Debug\CryptoPrivacy.dll
-C:\Users\ezz\source\repos\CryptoPrivacy\CryptoPrivacy\obj\Debug\CryptoPrivacy.pdb
