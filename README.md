@@ -6,4 +6,5 @@ and Contains File Encryption with AES-256 CBC and AES-256 CBC text Encryption an
 # Wiki
 
 for using HashAlgortihms: https://github.com/MinegamesAdministrationTool/CryptoPrivacyLibrary/wiki/HashAlgorithms
+
 for using AesAlgorithms: https://github.com/MinegamesAdministrationTool/CryptoPrivacyLibrary/wiki/AesAlgortihms
