@@ -15,7 +15,7 @@ namespace CryptoPrivacy
             using (MD5CryptoServiceProvider MD5 = new MD5CryptoServiceProvider())
             {
                 byte[] keys = MD5.ComputeHash(UTF8Encoding.UTF8.GetBytes(Key));
-                using (TripleDESCryptoServiceProvider tripDes = new TripleDESCryptoServiceProvider() { Key = keys, Mode = CipherMode.ECB, Padding = PaddingMode.PKCS7 })
+                using (TripleDESCryptoServiceProvider tripDes = new TripleDESCryptoServiceProvider() { Key = keys, Mode = CipherMode.CBC, Padding = PaddingMode.PKCS7 })
                 {
                     ICryptoTransform transform = tripDes.CreateEncryptor();
                     byte[] results = transform.TransformFinalBlock(data, 0, data.Length);
@@ -31,7 +31,7 @@ namespace CryptoPrivacy
             using (MD5CryptoServiceProvider MD5 = new MD5CryptoServiceProvider())
             {
                 byte[] keys = MD5.ComputeHash(UTF8Encoding.UTF8.GetBytes(Key));
-                using (TripleDESCryptoServiceProvider DES = new TripleDESCryptoServiceProvider() { Key = keys, Mode = CipherMode.ECB, Padding = PaddingMode.PKCS7 })
+                using (TripleDESCryptoServiceProvider DES = new TripleDESCryptoServiceProvider() { Key = keys, Mode = CipherMode.CBC, Padding = PaddingMode.PKCS7 })
                 {
                     ICryptoTransform transform = DES.CreateDecryptor();
                     byte[] results = transform.TransformFinalBlock(data, 0, data.Length);
